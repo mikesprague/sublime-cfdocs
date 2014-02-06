@@ -2,7 +2,7 @@
 
 
 ## About
-This is a [Sublime Text](http://www.sublimetext.com) plugin allowing you to easily search the [CFDocs](cfdocs.org) documentation.
+This is a [Sublime Text](http://www.sublimetext.com) plugin allowing you to easily search the [CFDocs](http://cfdocs.org) documentation.
 
 The plugin code is based on the [Search DevDocs](https://github.com/vitorbritto/sublime-devdocs) script by Vitor Britto.
 
