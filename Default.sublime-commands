@@ -1,4 +1,4 @@
 [
-    { "command": "cf_docs_search_selection", "caption": "CFDocs: Search From Selection" },
-    { "command": "cf_docs_search_from_input", "caption": "CFDocs: Search From Input" }
+	{ "command": "cf_docs_search_selection", "caption": "CFDocs: Search From Selection" }
+	, { "command": "cf_docs_search_from_input", "caption": "CFDocs: Search From Input" }
 ]
