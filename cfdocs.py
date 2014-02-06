@@ -1,5 +1,5 @@
-# Written by Vitor Britto (code@vitorbritto.com.br / vitorbritto.com.br)
-# based on Stackoverflow Search Plugin by Eric Martel (emartel@gmail.com / www.ericmartel.com)
+# Written by Mike Sprague (mikesprague@gmail.com)
+# based on Search DevDocs Plugin by Vitor Britto (code@vitorbritto.com.br / vitorbritto.com.br)
 
 import sublime
 import sublime_plugin
@@ -9,11 +9,11 @@ import webbrowser
 
 
 def SearchFor(text):
-    url = 'http://devdocs.io/#q=' + text.replace(' ', '%20')
+    url = 'http://cfdocs.org/' + text.replace(' ', '%20')
     webbrowser.open_new_tab(url)
 
 
-class DevDocsSearchSelectionCommand(sublime_plugin.TextCommand):
+class CfDocsSearchSelectionCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         for selection in self.view.sel():
             # if the user didn't select anything, search the currently highlighted word
@@ -24,10 +24,10 @@ class DevDocsSearchSelectionCommand(sublime_plugin.TextCommand):
             SearchFor(text)
 
 
-class DevDocsSearchFromInputCommand(sublime_plugin.WindowCommand):
+class CfDocsSearchFromInputCommand(sublime_plugin.WindowCommand):
     def run(self):
         # Get the search item
-        self.window.show_input_panel('Search DevDocs for', '',
+        self.window.show_input_panel('Search CFDocs for', '',
             self.on_done, self.on_change, self.on_cancel)
 
     def on_done(self, input):
