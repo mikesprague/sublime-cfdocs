@@ -23,14 +23,14 @@ Highlight text (or the word where the cursor is will be chosen), right click & c
 ***You can also use the shortcut (`ctrl + alt + /`).***
 
 ## Installation
-The easiest way to install this is with [Package Control](http://packagecontrol.io).
+The easiest way to install this will be with [Package Control](http://packagecontrol.io).
 
 * If you just went and installed Package Control, you probably need to restart Sublime Text before doing this next bit.
 * Bring up the Command Palette (Command+Shift+p on OS X, Control+Shift+p on Linux/Windows).
 * Select "Package Control: Install Package" (it'll take a few seconds)
 * Select Search CFDocs when the list appears.
 
-Package Control will automatically keep Git up to date with the latest version.
+Package Control will automatically keep Sublime Text up to date with the latest version.
 
 If you have some problems, [contact me](https://github.com/writecodedrinkcoffee/sublime-cfdocs/issues).
 
