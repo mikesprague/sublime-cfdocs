@@ -1,5 +1,8 @@
 [
     {
-        "keys": ["cmd+alt+/"], "command": "cf_docs_search_from_input"
+	"keys": ["cmd+alt+shift+/"], "command": "cf_docs_search_selection"
+    },
+    {
+	"keys": ["cmd+alt+/"], "command": "cf_docs_search_from_input"
     }
 ]

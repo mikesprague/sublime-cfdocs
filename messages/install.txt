@@ -1,7 +1,7 @@
-DevDocs
+CFDocs
 =======
 
-Very simple search on DevDocs by Vitor Britto (code@vitorbritto.com.br / vitorbritto.com.br)
+Very simple search on CFDocs by writecodedrinkcoffee (https://github.com/writecodedrinkcoffee)
 
 
 Customization
@@ -9,21 +9,20 @@ Customization
 
 Include this in the user key binding to overwrite default behaviour
 
-    { "keys": ["ctrl+shift+d"], "command": "dev_docs_search_selection" }
+    { "keys": ["ctrl+alt+shift+\"], "command": "cf_docs_search_selection" }, 
+    { "keys": ["ctrl+alt+\"], "command": "cf_docs_search_from_input" }
 
 
 Usage
 =====
 
-Highlight text, right click & click "Search DevDocs" to open a new tab on your web browser with the info. You can also use the shortcut.
+Highlight text, right click & click "Search CFDocs" to open a new tab on your web browser with the info. You can also use the shortcut.
 
 
 Support
 =======
 
-Please direct any feedback to code@vitorbritto.com.br or through github at https://github.com/vitorbritto/sublime-devdocs.
+Please direct any feedback to hello@writecodedrink.coffee or through github at https://github.com/writecodedrinkcoffee/sublime-cfdocs.
 
 Thank you for your support.
-
-Vitor Britto
 
