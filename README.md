@@ -1,4 +1,4 @@
-# Search CFDocs
+# CFDocs Plugin for Sublimme Text 2/3
 
 
 ## About
