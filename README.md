@@ -1,4 +1,4 @@
-# CFDocs Plugin for Sublimme Text 2/3
+# CFDocs Plugin for Sublime Text 2/3
 
 
 ## About
